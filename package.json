@@ -1,0 +1,34 @@
+{
+  "name": "stock_predict",
+  "version": "1.0.0",
+  "description": "Predict stock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iosifnicolae2/stock_predict.git"
+  },
+  "keywords": [
+    "react",
+    "stock",
+    "predict"
+  ],
+  "author": "Nicolae Iosif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iosifnicolae2/stock_predict/issues"
+  },
+  "homepage": "https://github.com/iosifnicolae2/stock_predict#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "fast-csv": "^2.4.0",
+    "js-regression": "^1.0.5",
+    "machine_learning": "^0.1.1",
+    "node-fetch": "^1.7.0",
+    "predict": "0.0.3",
+    "stock-symbol-lookup": "^0.2.1"
+  }
+}
